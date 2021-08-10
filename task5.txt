@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Complete the code.
+  
+    int a,b;
+    cin>>a>>b;
+    for(a=1; a<=b; a++){
+        if (a==8){
+            cout<<"eight"<<endl;
+        }
+        else if (a==9){
+            cout<<"nine"<<endl;
+        }
+      else  if (a%2==0 && a>9) {
+cout<<"even"<<endl;
+}
+else {
+        cout<<"odd"<<endl;
+    }
+    }
+
+    return 0;
+}
